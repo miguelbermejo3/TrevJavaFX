@@ -1,0 +1,35 @@
+# carpetas,archivos de eclipse
+.settings/
+.classpath
+.project
+
+# compilación
+bin/
+target/
+
+# temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# SO
+.DS_Store
+Thumbs.db
+
+#MAVEN
+.mvn/
+
+# Maven dependencies
+dependency-reduced-pom.xml
+target/
+
+# Construcción
+build/
+
+# IDES
+.idea/
+.vscode/
+
+# configuraciones lcoales del enviroment
+*.env

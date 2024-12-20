@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.TrabajadosController">
+   <center>
+      <TableView fx:id="tabla" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="columnaFecha" prefWidth="142.0" text="Fecha" />
+          <TableColumn fx:id="columnaEntrada" prefWidth="93.0" text="Hora de Entrada" />
+            <TableColumn fx:id="columnaSalida" prefWidth="110.0" text="Hora de Salida" />
+            <TableColumn fx:id="columnaPrecio" text="Precio la hora" />
+            <TableColumn fx:id="columnaGanado" prefWidth="83.0" text="Dinero Ganado" />
+            <TableColumn fx:id="columnaPropina" prefWidth="91.0" text="Propina" />
+        </columns>
+      </TableView>
+   </center>
+   <top>
+      <Button fx:id="btnVolver" mnemonicParsing="false" onAction="#volverAHome" text="VOLVER" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
